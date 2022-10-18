@@ -4,18 +4,61 @@ import java.util.Scanner;
 
 public class StudentApps {
     public static void main(String[] args) {
+        //Created first Instance
         System.out.println("Please enter your Student name: ");
         Scanner input = new Scanner(System.in);
         String name = input.nextLine();
-        System.out.println("You entered : " + name );
+        StudentClass classinfo = new StudentClass();
+        classinfo.setName(name);
+        System.out.println("You entered : " + classinfo.getName() );
 
         System.out.println("Please enter your Student email: ");
         String email = input.nextLine();
-        System.out.println("You entered : " + email );
+        classinfo.setEmail(email);
+        System.out.println("You entered : " + classinfo.getEmail());
 
         System.out.println("Please enter your course: ");
         String course = input.nextLine();
-        System.out.println("You entered : " + course );
+        classinfo.setCourse(course);
+        System.out.println("You entered : " + classinfo.getCourse());
+
+        // Created Second instance
+        StudentClass classinfo2 = new StudentClass();
+        System.out.println("Please enter your Student name: ");
+        String name2 = input.nextLine();
+        classinfo2.setName(name2);
+        System.out.println("You entered : " + classinfo2.getName() );
+
+
+        System.out.println("Please enter your Student email: ");
+        String email2 = input.nextLine();
+        classinfo.setEmail(email2);
+        System.out.println("You entered : " + classinfo2.getEmail());
+
+        System.out.println("Please enter your course: ");
+        String course2 = input.nextLine();
+        classinfo.setCourse(course2);
+        System.out.println("You entered : " + classinfo2.getCourse());
+
+        //Created second instance
+        StudentClass classinfo3 = new StudentClass();
+        System.out.println("Please enter your Student name: ");
+        String name3 = input.nextLine();
+        classinfo.setName(name3);
+        System.out.println("You entered : " + classinfo3.getName() );
+
+
+        System.out.println("Please enter your Student email: ");
+        String email3 = input.nextLine();
+        classinfo.setEmail(email3);
+        System.out.println("You entered : " + classinfo3.getEmail());
+
+        System.out.println("Please enter your course: ");
+        String course3 = input.nextLine();
+        classinfo.setCourse(course3);
+        System.out.println("You entered : " + classinfo3.getCourse());
+
+
 
 
 
