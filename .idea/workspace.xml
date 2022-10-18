@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe6af196-f748-4a93-8167-19379f858e5b" name="Changes" comment="Added new file called Student Class">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="fe6af196-f748-4a93-8167-19379f858e5b" name="Changes" comment="Added new file new methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/week5/StudentApps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/week5/StudentApps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666098885234</updated>
       <workItem from="1666098887152" duration="308000" />
-      <workItem from="1666101454886" duration="4101000" />
+      <workItem from="1666101454886" duration="4525000" />
     </task>
     <task id="LOCAL-00001" summary="Added new file called Student Class">
       <created>1666102438629</created>
@@ -84,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666102438629</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added new file new methods">
+      <created>1666105788636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666105788636</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added new file new methods">
+      <created>1666105927443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666105927443</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added new file called Student Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new file called Student Class" />
+    <MESSAGE value="Added new file new methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new file new methods" />
   </component>
 </project>
