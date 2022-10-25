@@ -26,10 +26,9 @@ public class StudentApps {
         System.out.println("You entered : " + classinfo.getCourse());
 
         // Created Second instance
-        StudentClass classinfo2 = new StudentClass();
         System.out.println("Please enter your Student name: ");
         String name2 = input.nextLine();
-        classinfo2.setName(name2);
+        StudentClass classinfo2 = new StudentClass(name2);
         System.out.println("You entered : " + classinfo2.getName() );
 
 
