@@ -5,6 +5,13 @@ public class StudentClass {
     private String email;
     private String course;
 
+    public StudentClass() {
+    }
+
+    public StudentClass(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
