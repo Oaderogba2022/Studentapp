@@ -50,8 +50,6 @@ public class StudentApps {
         System.out.println("You entered : " + course3);
 
         StudentClass classinfo3 = new StudentClass(name3,email3,course3);
-        System.out.println("You entered : " );
-
 
         System.out.println("You entered : " + classinfo.getName() );
         System.out.println("You entered : " + classinfo.getEmail());
